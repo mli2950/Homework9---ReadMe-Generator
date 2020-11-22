@@ -6,7 +6,7 @@
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Live Links](#Live_Links)
+* [Live Links](#live)
 * [Credits](#credits)
 * [License](#license)
 

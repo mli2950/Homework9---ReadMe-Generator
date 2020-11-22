@@ -54,7 +54,7 @@ inquirer
         "## Table of Contents\n" +
         "* [Installation](#installation)\n" +
         "* [Usage](#usage)\n" +
-        "* [Live Links](#Live_Links)\n" +
+        "* [Live Links](#live)\n" +
         "* [Credits](#credits)\n" +
         "* [License](#license)\n\n" +
     
