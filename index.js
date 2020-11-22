@@ -38,23 +38,23 @@ inquirer
 
     .then((data) => {
         fs.writeFile("README.md",
-        `# ${data.title}\n\n
-        # Description\n
-        ${data.description}\n\n
-        # Table of Contents\n
-        * [Installation](#installation)\n
-        * [Usage](#usage)\n
-        * [Credits](#credits)\n
-        * [License](#license)\n\n
+        "# " + `${data.title}\n\n` +
+        "## Description\n" +
+        `${data.description}\n\n` +
+        "## Table of Contents\n" +
+        "* [Installation](#installation)\n" +
+        "* [Usage](#usage)\n" +
+        "* [Credits](#credits)\n" +
+        "* [License](#license)\n\n" +
     
-        # Installation\n
-        ${data.installation}\n\n
-        # Usage\n
-        ${data.usage}\n\n
-        # Credits\n
-        ${data.credits}\n\n
-        # License\n
-        ${data.license}`
+        "## Installation\n" +
+        `${data.installation}\n\n` +
+        "## Usage\n" +
+        `${data.usage}\n\n` +
+        "## Credits\n" +
+        `${data.credits}\n\n` +
+        "## License\n" +
+        `${data.license}`
     , 
     (err) => err ? console.log(err) : console.log("README successfully generated"))
 
