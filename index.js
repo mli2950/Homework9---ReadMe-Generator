@@ -54,7 +54,7 @@ inquirer
         "## Table of Contents\n" +
         "* [Installation](#installation)\n" +
         "* [Usage](#usage)\n" +
-        "* [Live Links](#live)\n" +
+        "* [Links](#links)\n" +
         "* [Credits](#credits)\n" +
         "* [License](#license)\n\n" +
     
@@ -62,7 +62,7 @@ inquirer
         `${data.installation}\n\n` +
         "## Usage\n" +
         `${data.usage}\n\n` +
-        "## Live Links\n" +
+        "## Links\n" +
         `* [Live Webpage](${data.live})\n` +
          `* [Repository](${data.repository})\n\n` +
         "## Credits\n" +
