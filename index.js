@@ -38,7 +38,7 @@ inquirer
 
     .then((data) => {
         fs.writeFile("README.md",
-        `# ${data.title}\n\n
+        `## ${data.title}\n\n
         ## Description\n
         ${data.description}\n\n
         ## Table of Contents\n
