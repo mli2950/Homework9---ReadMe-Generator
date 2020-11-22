@@ -38,18 +38,18 @@ inquirer
 
     .then((data) => {
         fs.writeFile("README.md",
-        `## ${data.title}\n\n
-        ## Description\n
+        `# ${data.title}\n\n
+        # Description\n
         ${data.description}\n\n
-        ## Table of Contents\n
+        # Table of Contents\n
         * [Installation](#installation)\n
         * [Usage](#usage)\n
         * [Credits](#credits)\n
         * [License](#license)\n\n
     
-        ## Installation\n
+        # Installation\n
         ${data.installation}\n\n
-        ## Usage\n
+        # Usage\n
         ${data.usage}\n\n
         # Credits\n
         ${data.credits}\n\n
