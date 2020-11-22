@@ -1,7 +1,7 @@
 # Michael
 
 ## Description
-test
+Test
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,11 +18,10 @@ test
 
 ## Live Links
 * [Live Webpage](http://www.google.com)
-
-         * [Repository](http://www.github.com)
+* [Repository](http://www.github.com)
 
 ## Credits
 me
 
 ## License
-no
+NO
