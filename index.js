@@ -63,7 +63,8 @@ inquirer
         "## Usage\n" +
         `${data.usage}\n\n` +
         "## Live Links\n" +
-        `${data.live}\n${data.repository}\n\n` +
+        `* [Live Webpage](${data.live})\n
+         * [Repository](${data.repository})\n\n` +
         "## Credits\n" +
         `${data.credits}\n\n` +
         "## License\n" +
