@@ -26,6 +26,16 @@ inquirer
         },
         {
             type: "input",
+            message: "Please enter link to deployed webpage",
+            name: "live"
+        },
+        {
+            type: "input",
+            message: "Please enter link to repository",
+            name: "repository"
+        },
+        {
+            type: "input",
             message: "Who do you want to give credit to",
             name: "credits",
         },
@@ -44,6 +54,7 @@ inquirer
         "## Table of Contents\n" +
         "* [Installation](#installation)\n" +
         "* [Usage](#usage)\n" +
+        "* [Live Links](#Links)\n" +
         "* [Credits](#credits)\n" +
         "* [License](#license)\n\n" +
     
@@ -51,6 +62,8 @@ inquirer
         `${data.installation}\n\n` +
         "## Usage\n" +
         `${data.usage}\n\n` +
+        "## Live Links\n" +
+        `${data.live}\n${data.repository}\n\n` +
         "## Credits\n" +
         `${data.credits}\n\n` +
         "## License\n" +
