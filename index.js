@@ -76,6 +76,7 @@ inquirer
         fs.writeFile("README.md",
         "# " + `${data.title}\n\n` +
         licenseImage + 
+        "\n\n" +
         "## Description\n" +
         `${data.description}\n\n` +
         "## Table of Contents\n" +
